@@ -4,7 +4,7 @@ const server = express();
 
 
 server.get('/', (req, res) => {
-    res.send('<h1>Hello World now!</h1>');
+    res.json({curso: 'Node JS com Express'});
   });
 
 server.listen(8080);
